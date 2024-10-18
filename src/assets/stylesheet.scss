@@ -1,0 +1,41 @@
+@import "public/font/Inter/inter.css";
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", "sans-serif";
+}
+
+a {
+  text-decoration: none;
+}
+
+body{
+  font-family: Inter, serif;
+}
+
+:root {
+  --color-dark-blue: #283253;
+  --color-light-blue: #7A85A5;
+  --color-blue: #468CFF;
+  --color-light-black: #1A1A1A;
+  --color-grey: #767676;
+  --color-dark-grey:#646464;
+  }
+
+.text {
+  &_dark-blue {
+    color: var(--color-dark-blue);
+  }
+  &_title{
+    color: var(--color-light-black);
+  }
+  &_main{
+    color: var(--color-grey);
+    font-size: 16px;
+  }
+}
+
+header{
+  display: flex;
+}
